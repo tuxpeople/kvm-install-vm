@@ -359,45 +359,45 @@ function fetch_images ()
             LOGIN_USER=debian
             ;;
         fedora29)
-          QCOW=Fedora-Cloud-Base-29-1.2.x86_64.qcow2
-          OS_TYPE="linux"
-          OS_VARIANT="fedora29"
-          IMAGE_URL=https://download.fedoraproject.org/pub/fedora/linux/releases/29/Cloud/x86_64/images
-          DISK_FORMAT=qcow2
-          LOGIN_USER=fedora
-          ;;
+            QCOW=Fedora-Cloud-Base-29-1.2.x86_64.qcow2
+            OS_TYPE="linux"
+            OS_VARIANT="fedora29"
+            IMAGE_URL=https://download.fedoraproject.org/pub/fedora/linux/releases/29/Cloud/x86_64/images
+            DISK_FORMAT=qcow2
+            LOGIN_USER=fedora
+            ;;
         fedora29-atomic)
-          QCOW=Fedora-AtomicHost-29-20190611.0.x86_64.qcow2
-          OS_TYPE="linux"
-          OS_VARIANT="fedora29"
-          IMAGE_URL=https://download.fedoraproject.org/pub/alt/atomic/stable/Fedora-29-updates-20190611.0/AtomicHost/x86_64/images/
-          DISK_FORMAT=qcow2
-          LOGIN_USER=fedora
-          ;;
+            QCOW=Fedora-AtomicHost-29-20190611.0.x86_64.qcow2
+            OS_TYPE="linux"
+            OS_VARIANT="fedora29"
+            IMAGE_URL=https://download.fedoraproject.org/pub/alt/atomic/stable/Fedora-29-updates-20190611.0/AtomicHost/x86_64/images/
+            DISK_FORMAT=qcow2
+            LOGIN_USER=fedora
+            ;;
         fedora30)
-          QCOW=Fedora-Cloud-Base-30-1.2.x86_64.qcow2
-          OS_TYPE="linux"
-          OS_VARIANT="fedora29"
-          IMAGE_URL=https://download.fedoraproject.org/pub/fedora/linux/releases/30/Cloud/x86_64/images
-          DISK_FORMAT=qcow2
-          LOGIN_USER=fedora
-          ;;
+            QCOW=Fedora-Cloud-Base-30-1.2.x86_64.qcow2
+            OS_TYPE="linux"
+            OS_VARIANT="fedora29"
+            IMAGE_URL=https://download.fedoraproject.org/pub/fedora/linux/releases/30/Cloud/x86_64/images
+            DISK_FORMAT=qcow2
+            LOGIN_USER=fedora
+            ;;
         fedora31)
-          QCOW=Fedora-Cloud-Base-31-1.9.x86_64.qcow2
-          OS_TYPE="linux"
-          OS_VARIANT="fedora31"
-          IMAGE_URL=https://download.fedoraproject.org/pub/fedora/linux/releases/31/Cloud/x86_64/images
-          DISK_FORMAT=qcow2
-          LOGIN_USER=fedora
-          ;;
+            QCOW=Fedora-Cloud-Base-31-1.9.x86_64.qcow2
+            OS_TYPE="linux"
+            OS_VARIANT="fedora31"
+            IMAGE_URL=https://download.fedoraproject.org/pub/fedora/linux/releases/31/Cloud/x86_64/images
+            DISK_FORMAT=qcow2
+            LOGIN_USER=fedora
+            ;;
        fedora32)
-          QCOW=Fedora-Cloud-Base-32-1.6.x86_64.qcow2
-          OS_TYPE="linux"
-          OS_VARIANT="fedora32"
-          IMAGE_URL=https://download.fedoraproject.org/pub/fedora/linux/releases/32/Cloud/x86_64/images
-          DISK_FORMAT=qcow2
-          LOGIN_USER=fedora
-          ;;
+            QCOW=Fedora-Cloud-Base-32-1.6.x86_64.qcow2
+            OS_TYPE="linux"
+            OS_VARIANT="fedora32"
+            IMAGE_URL=https://download.fedoraproject.org/pub/fedora/linux/releases/32/Cloud/x86_64/images
+            DISK_FORMAT=qcow2
+            LOGIN_USER=fedora
+            ;;
         fedora33)
             QCOW=Fedora-Cloud-Base-33-1.2.x86_64.qcow2
             OS_TYPE="linux"
