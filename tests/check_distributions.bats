@@ -88,6 +88,14 @@ function remove_test_vm ()
     remove_test_vm fedora33
 }
 
+@test "Install VM (Rocky Linux 8.4) - $VMNAME-rocky84" {
+    create_test_vm rocky84
+}
+
+@test "Delete VM (Rocky Linux 8.4) - $VMNAME-rocky84" {
+    remove_test_vm rocky84
+}
+
 @test "Install VM (Ubuntu 16.04) - $VMNAME-ubuntu1604" {
     create_test_vm ubuntu1604
 }
